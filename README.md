@@ -1,7 +1,7 @@
-# Led-control-using-Arduino
+
 ### NAME:Pharsheenrahuman M
 ### REG NO:24006746
-# EXPERIMENT 1
+# EXPERIMENT 1:Led-control-using-Ardiuno
 ## AIM
 To design and implement a system for LED control using an Arduino microcontroller and a push button.
 
