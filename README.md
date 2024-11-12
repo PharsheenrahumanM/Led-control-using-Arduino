@@ -1,7 +1,7 @@
 
 ### NAME:Pharsheenrahuman M
 ### REG NO:24006746
-# EXPERIMENT 1:Led-control-using-Ardiuno
+# EXPERIMENT 1:Led control using Ardiuno
 ## AIM
 To design and implement a system for LED control using an Arduino microcontroller and a push button.
 
@@ -76,11 +76,27 @@ Weighing Machines </br>
      
 
 ## PROGRAM
+void setup() {
+  pinMode(13,OUTPUT);
+  pinMode(2,pinMode);
+
+}
+
+void loop() {
+  int buttonstatus=digitalRead(2);
+if(buttonstatus==HIGH)
+ digitalWrite(13,HIGH);
+ else
+ digitalWrite(13,LOW);
+ delay(1000);
+}
 
 ## OUTPUT
-<img src="https://github.com/user-attachments/assets/7c1c73b4-68ce-425a-8508-069de61f835e"
+## OFF
+ <img src="https://github.com/user-attachments/assets/7c1c73b4-68ce-425a-8508-069de61f835e"
       width="700"
      height="500"/>
+## ON
 <img src="https://github.com/user-attachments/assets/4d4ba3e2-fb2d-4fdb-8c82-f3110a1c42f0"
       width="700"
      height="500"/>
